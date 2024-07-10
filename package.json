@@ -1,0 +1,35 @@
+{
+  "name": "pug-alias-loader",
+  "version": "0.1.0",
+  "description": "PUG webpack loader, Support webpack alias",
+  "author": "yuzheemail@163.com",
+  "license": "MIT",
+  "private": false,
+  "homepage": "https://github.com/cookRiceYu/pug-alias-loader.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookRiceYu/pug-alias-loader.git"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "pug",
+    "webpack",
+    "alias",
+    "loader",
+    "template"
+  ],
+  "dependencies": {
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.45.1"
+  }
+}

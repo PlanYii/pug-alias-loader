@@ -1,0 +1,1 @@
+PUG webpack loader, Support webpack alias
