@@ -22,6 +22,7 @@ module.exports = function (source) {
       });
     }
   }
+  let html = ''
   try {
     const template = pug.compile(
       source,
@@ -30,11 +31,12 @@ module.exports = function (source) {
         filename: filename,
       })
     );
-    return template(options.data || {});
+    html = template(options.data || {});
   } catch (error) {
     console.log('compile-error================', error)
-    return '\\n'
+    html = source
   }
+  return html;
   // const template = pug.compileClient(
   //   source,
   //   Object.assign(options, {

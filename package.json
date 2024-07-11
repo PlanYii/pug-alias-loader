@@ -1,6 +1,6 @@
 {
   "name": "pug-alias-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PUG webpack loader, Support webpack alias",
   "author": "yuzheemail@163.com",
   "license": "MIT",
