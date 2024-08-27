@@ -5,10 +5,10 @@
   "author": "yuzheemail@163.com",
   "license": "MIT",
   "private": false,
-  "homepage": "https://github.com/cookRiceYu/pug-alias-loader.git",
+  "homepage": "https://github.com/PlanYii/pug-alias-loader.git",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cookRiceYu/pug-alias-loader.git"
+    "url": "git+https://github.com/PlanYii/pug-alias-loader.git"
   },
   "files": [
     "index.js",
